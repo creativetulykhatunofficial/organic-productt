@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6ec">
+  <meta name="description" content="Authentic date palm jaggery, ghee, mustard oil and more, sourced with care from Pabna, Bangladesh.">
+  <title>Mati & Madhur — The honest taste of Pabna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Tiro+Bangla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><strong>Complimentary delivery</strong> on orders over ৳2,000 · Proudly sourced in Pabna</div>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mati and Madhur home">
+        <span class="brand-mark">❧</span><span><span class="brand-name">Mati & Madhur</span><span class="brand-sub">Pabna · Bangladesh</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-en="Our story" data-bn="আমাদের গল্প">Our story</a>
+        <a href="#categories" data-en="Shop" data-bn="কেনাকাটা">Shop</a>
+        <a href="#jaggery" data-en="Pabna gur" data-bn="পাবনার গুড়">Pabna gur</a>
+        <a href="#reviews" data-en="Reviews" data-bn="মতামত">Reviews</a>
+        <a href="#contact" data-en="Contact" data-bn="যোগাযোগ">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-button" id="languageToggle" aria-label="Switch language">বাংলা</button>
+        <button class="icon-button cart-button" id="cartOpen" aria-label="Open shopping cart">♧<span class="cart-count" id="cartCount">0</span></button>
+        <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">From the heart of Pabna</span>
+        <h1>The honest taste<br>of <em>home.</em></h1>
+        <p>Rooted in our soil, made with care. Discover pure, traditional foods from the farms and homes of Pabna, Bangladesh.</p>
+        <a class="button light" href="#products">Explore the collection <span>→</span></a>
+        <div class="hero-note"><span></span> GOOD FOOD. GOOD ROOTS. ALWAYS LOCAL.</div>
+      </div>
+    </section>
+    <div class="trust-strip">
+      <div class="trust-inner container">
+        <div class="trust-item"><span class="trust-icon">✳</span>Locally sourced in Pabna</div>
+        <div class="trust-item"><span class="trust-icon">♧</span>Pure, honest ingredients</div>
+        <div class="trust-item"><span class="trust-icon">⌂</span>Made in small batches</div>
+        <div class="trust-item"><span class="trust-icon">♡</span>Delivered with care</div>
+      </div>
+    </div>
+    <section id="about">
+      <div class="about-grid container">
+        <div class="about-photo">
+          <img src="imagess/images%20(11).jpg" alt="Traditional Bengali pitha made in Pabna">
+          <div class="photo-tag"><strong>100%</strong><span>Our roots are right here in Pabna</span></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">A little about us</span>
+          <h2>From our land,<br>with love.</h2>
+          <p>We believe the best food doesn't need to travel far. Mati & Madhur brings together the people, flavours and time-honoured recipes that make Pabna special.</p>
+          <p>We work directly with local farmers and family makers—from the date palm groves to the home kitchen—so every jar carries a little piece of where it came from.</p>
+          <div class="signature">With care, from Pabna</div>
+        </div>
+      </div>
+    </section>
+    <section class="categories" id="categories">
+      <div class="container">
+        <div class="section-heading center-heading">
+          <span class="eyebrow">The local pantry</span>
+          <h2>Goodness, grown close.</h2>
+          <p>Explore the traditional flavours our neighbours have loved for generations.</p>
+        </div>
+        <div class="category-grid">
+          <button class="category-card" data-filter="Gur"><img src="imagess/images%20(6).jpg" alt=""><span class="category-label">Date palm gur<small>খাঁটি খেজুরের গুড়</small></span></button>
+          <button class="category-card" data-filter="Dairy"><img src="imagess/images%20(1).webp" alt=""><span class="category-label">Ghee & dairy<small>ঘি ও দুগ্ধজাত পণ্য</small></span></button>
+          <button class="category-card" data-filter="Pantry"><img src="imagess/local-honey.jpg" alt=""><span class="category-label">Oils & honey<small>তেল ও মধু</small></span></button>
+          <button class="category-card" data-filter="Homemade"><img src="imagess/desi-achar.jpg" alt="Jars of homemade Indian pickles"><span class="category-label">Pickles & pitha<small>আচার ও পিঠা</small></span></button>
+          <button class="category-card" data-filter="Traditional"><img src="imagess/images%20(10).jpg" alt=""><span class="category-label">Bengali classics<small>দেশীয় খাবার</small></span></button>
+        </div>
+      </div>
+    </section>
+    <section id="products">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Made nearby, loved everywhere</span>
+          <h2>Our market basket.</h2>
+          <p>Small-batch favourites, thoughtfully sourced from Pabna and neighbouring communities.</p>
+        </div>
+        <div class="shop-tools">
+          <div class="filters" id="filters" aria-label="Filter products"></div>
+          <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search our pantry…" aria-label="Search products"></label>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+    <section class="jaggery" id="jaggery">
+      <div class="jaggery-grid container">
+        <div class="jaggery-copy">
+          <span class="eyebrow">Pabna's winter treasure</span>
+          <h2>A little sweetness, made the old way.</h2>
+          <p>Every winter, local gachhis collect fresh date palm sap and slowly cook it over a wood fire. No shortcuts, no added sugar—just the deep, caramel warmth of real Pabna khejur gur.</p>
+          <a class="button light" href="#products" data-jaggery-link>Shop the gur collection <span>→</span></a>
+        </div>
+        <div class="jaggery-photo">
+          <img src="imagess/images%20(6).jpg" alt="Pabna date palm patali jaggery">
+          <span class="jaggery-label">Harvested by hand · Pabna</span>
+        </div>
+      </div>
+    </section>
+    <section id="why">
+      <div class="container">
+        <div class="section-heading center-heading">
+          <span class="eyebrow">The Mati & Madhur promise</span>
+          <h2>Good food feels different.</h2>
+          <p>Care you can taste, from the first harvest to the last spoonful.</p>
+        </div>
+        <div class="reasons">
+          <article class="reason"><div class="reason-icon">⌖</div><h3>Close to home</h3><p>Every product comes from Pabna or our neighbouring communities, never anonymous supply chains.</p></article>
+          <article class="reason"><div class="reason-icon">✳</div><h3>Nothing to hide</h3><p>Honest ingredients and traditional methods. No unnecessary additives, just food as it should be.</p></article>
+          <article class="reason"><div class="reason-icon">♧</div><h3>Made with care</h3><p>We choose small family makers who put time, skill and pride into every batch.</p></article>
+          <article class="reason"><div class="reason-icon">♡</div><h3>Fresh to your door</h3><p>Carefully packed and sent directly to you, so every order arrives ready to enjoy.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="bestsellers" id="bestsellers">
+      <div class="container">
+        <div class="section-heading center-heading">
+          <span class="eyebrow">A few local favourites</span>
+          <h2>Beloved around here.</h2>
+          <p>The pantry staples our customers come back for, time and again.</p>
+        </div>
+        <div class="product-grid" id="bestsellerGrid"></div>
+      </div>
+    </section>
+    <section class="review-section" id="reviews">
+      <div class="container">
+        <div class="section-heading center-heading">
+          <span class="eyebrow">Kind words from our table</span>
+          <h2>Shared with love.</h2>
+          <p>Nothing makes us happier than bringing a taste of home to your table.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card"><div class="stars">★★★★★</div><blockquote>“The khejur gur tastes just like what my grandmother used to make. You can really feel the care in it.”</blockquote><div class="reviewer"><span class="avatar">N</span><span><strong>Nusrat Jahan</strong><small>Pabna Sadar · Verified customer</small></span></div></article>
+          <article class="review-card"><div class="stars">★★★★★</div><blockquote>“The ghee is beautiful—rich, fragrant, and a little goes a long way. My family asks for it every week.”</blockquote><div class="reviewer"><span class="avatar">R</span><span><strong>Rafiq Hasan</strong><small>Ishwardi · Verified customer</small></span></div></article>
+          <article class="review-card"><div class="stars">★★★★★</div><blockquote>“Finally, proper local food I can send to my parents in Dhaka. Lovely packaging and lovely people.”</blockquote><div class="reviewer"><span class="avatar">T</span><span><strong>Tahmina Akter</strong><small>Dhaka · Verified customer</small></span></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="order-section" id="contact">
+      <div class="order-grid container">
+        <div class="order-copy">
+          <span class="eyebrow">Let's get something good to you</span>
+          <h2>Order a little taste of Pabna.</h2>
+          <p>Tell us what you have in mind. We’ll confirm your order and delivery details personally, with a little help from WhatsApp.</p>
+          <div class="contact-line"><span>☏</span><span><small>Call or WhatsApp us</small>+880 1700-000000</span></div>
+          <div class="contact-line"><span>⌖</span><span><small>Our home</small>Pabna, Rajshahi Division, Bangladesh</span></div>
+          <p>We deliver across Bangladesh. Delivery charges are confirmed when we get in touch.</p>
+        </div>
+        <form class="order-form" id="contactForm">
+          <div class="field"><label for="customerName">Your name</label><input id="customerName" name="name" required placeholder="e.g. Samira Rahman"></div>
+          <div class="field"><label for="customerPhone">Phone number</label><input id="customerPhone" name="phone" type="tel" required placeholder="+880 1XXX-XXXXXX"></div>
+          <div class="field full"><label for="customerAddress">Delivery address</label><input id="customerAddress" name="address" required placeholder="House, area, district"></div>
+          <div class="field full"><label for="customerOrder">What would you like?</label><textarea id="customerOrder" name="order" placeholder="Products and quantities, or just say hello…"></textarea></div>
+          <div class="field full"><button class="button" type="submit">Send order via WhatsApp <span>→</span></button></div>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer-grid container">
+      <div class="footer-about">
+        <a class="brand" href="#home"><span class="brand-mark">❧</span><span><span class="brand-name">Mati & Madhur</span><span class="brand-sub">Pabna · Bangladesh</span></span></a>
+        <p>Honest, traditional food from the farms and family kitchens of Pabna. A little taste of home, wherever you are.</p>
+        <div class="socials"><a href="https://www.facebook.com/" aria-label="Facebook">f</a><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://wa.me/8801700000000" aria-label="WhatsApp">w</a></div>
+      </div>
+      <div><h3>Explore</h3><div class="footer-links"><a href="#about">Our story</a><a href="#categories">Shop all</a><a href="#jaggery">Pabna gur</a><a href="#reviews">Customer love</a></div></div>
+      <div><h3>Our pantry</h3><div class="footer-links"><a href="#products">Gur & patali</a><a href="#products">Ghee & dairy</a><a href="#products">Oil & honey</a><a href="#products">Pickles & pitha</a></div></div>
+      <div><h3>Come say hello</h3><div class="footer-links"><a href="https://wa.me/8801700000000">WhatsApp: +880 1700-000000</a><a href="mailto:hello@mati-madhur.example">hello@mati-madhur.example</a><span>Pabna, Bangladesh</span><span>Every day · 9am–7pm</span></div></div>
+    </div>
+    <div class="footer-note container">© <span id="year"></span> Mati & Madhur · Made with care in Pabna, Bangladesh<br><span class="image-credit">Pickle photo: <a href="https://www.flickr.com/photos/39579346@N07/52597335143" target="_blank" rel="noopener">“Indian Pickle Jars” by tbfurman</a>, <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>.</span></div>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/8801700000000?text=Hello%20Mati%20%26%20Madhur" aria-label="Chat with us on WhatsApp">◉</a>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-header"><h2>Your basket</h2><button class="close-button" id="cartClose" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-total"><span>Subtotal</span><span id="cartSubtotal">৳0</span></div>
+    <button class="button cart-checkout" id="checkoutButton">Order on WhatsApp →</button>
+  </aside>
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-label="Product details">
+    <div class="product-modal" id="productModal"></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const products = [
+      { id: 1, name: "Pure Date Palm Jaggery", bn: "খাঁটি খেজুরের গুড়", category: "Gur", price: 450, unit: "500 g", badge: "Bestseller", badgeBn: "বেস্টসেলার", image: "imagess/images%20(9).jpg", description: "Slow-cooked over a wood fire from fresh winter date palm sap. Deep, naturally caramel sweetness, just as Pabna families have made it for generations.", descriptionBn: "শীতের টাটকা খেজুরের রস থেকে কাঠের আগুনে ধীরে ধীরে তৈরি। পাবনার পরিবারগুলোর প্রজন্মের পর প্রজন্মের ঐতিহ্যবাহী গভীর, প্রাকৃতিক মিষ্টি স্বাদ।" },
+      { id: 2, name: "Patali Jaggery", bn: "পাটালি গুড়", category: "Gur", price: 520, unit: "500 g", badge: "Winter pick", badgeBn: "শীতের বিশেষ", image: "imagess/images%20(6).jpg", description: "Traditional solid date palm gur, moulded by hand while warm. Perfect for pitha, payesh, or a little sweet bite with tea.", descriptionBn: "গরম অবস্থায় হাতে ছাঁচে তৈরি ঐতিহ্যবাহী পাটালি গুড়। পিঠা, পায়েস কিংবা চায়ের সঙ্গে মিষ্টি স্বাদের জন্য দারুণ।" },
+      { id: 3, name: "Liquid Date Palm Jaggery", bn: "ঝোলা গুড়", category: "Gur", price: 380, unit: "500 g", badge: "Small batch", badgeBn: "অল্প পরিমাণে তৈরি", image: "imagess/images%20(8).jpg", description: "A luscious, pourable winter syrup made from fresh date palm sap. Drizzle over pancakes, yoghurt or warm pitha.", descriptionBn: "টাটকা খেজুরের রস দিয়ে তৈরি শীতের সুস্বাদু ঝোলা গুড়। পিঠা, দই বা প্যানকেকের ওপর ছড়িয়ে উপভোগ করুন।" },
+      { id: 4, name: "Fresh Ghee", bn: "খাঁটি ঘি", category: "Dairy", price: 850, unit: "500 g", badge: "Farm fresh", badgeBn: "খামারের টাটকা", image: "imagess/images%20(1).webp", description: "Slow-rendered from locally sourced cream for a rich aroma and golden finish. A little brings warmth to every meal.", descriptionBn: "স্থানীয় খামারের দুধের সর থেকে ধীরে তৈরি, সমৃদ্ধ সুগন্ধ ও সোনালি রঙের ঘি। অল্পতেই প্রতিটি খাবারে আনে ঘরোয়া স্বাদ।" },
+      { id: 5, name: "Pure Mustard Oil", bn: "সরিষার তেল", category: "Pantry", price: 320, unit: "500 ml", badge: "Cold pressed", badgeBn: "কোল্ড প্রেসড", image: "imagess/mustard-ghee.jpg", description: "Bold, fragrant mustard oil pressed in small batches from locally grown mustard seeds. A kitchen essential with a proper kick.", descriptionBn: "স্থানীয় সরিষা থেকে অল্প পরিমাণে তৈরি ঝাঁঝালো ও সুগন্ধি তেল। প্রতিদিনের রান্নার অপরিহার্য উপকরণ।" },
+      { id: 6, name: "Natural Honey", bn: "খাঁটি মধু", category: "Pantry", price: 480, unit: "500 g", badge: "Raw & pure", badgeBn: "প্রাকৃতিক ও খাঁটি", image: "imagess/local-honey.jpg", description: "Naturally sweet, carefully collected honey from nearby countryside. Unblended and full of the character of our local flowers.", descriptionBn: "পাশের গ্রাম থেকে যত্ন করে সংগ্রহ করা প্রাকৃতিক মধু। কোনো মিশ্রণ নেই—স্থানীয় ফুলের নিজস্ব স্বাদ ও সুবাসে ভরপুর।" },
+      { id: 7, name: "Homemade Pickles", bn: "ঘরে তৈরি আচার", category: "Homemade", price: 280, unit: "400 g", badge: "Family recipe", badgeBn: "পারিবারিক রেসিপি", image: "imagess/desi-achar.jpg", description: "A bright, tangy pickle made in a Pabna family kitchen from seasonal produce and a much-loved traditional recipe.", descriptionBn: "মৌসুমি উপকরণ আর পরিবারের প্রিয় ঐতিহ্যবাহী রেসিপিতে পাবনার ঘরে তৈরি টক-ঝাল আচার।" },
+      { id: 8, name: "Traditional Pitha", bn: "দেশীয় পিঠা", category: "Homemade", price: 350, unit: "6 pieces", badge: "Made to order", badgeBn: "অর্ডার অনুযায়ী তৈরি", image: "imagess/images%20(10).jpg", description: "Handmade with local rice flour and date palm gur. Freshly prepared in small batches—please order ahead for the best availability.", descriptionBn: "স্থানীয় চালের গুঁড়া ও খেজুরের গুড় দিয়ে হাতে তৈরি পিঠা। অল্প পরিমাণে টাটকা বানানো হয়—পাওয়ার নিশ্চয়তায় আগেই অর্ডার করুন।" },
+      { id: 9, name: "Local Dairy Selection", bn: "দুগ্ধজাত পণ্য", category: "Dairy", price: 420, unit: "500 g", badge: "Fresh today", badgeBn: "আজকের টাটকা", image: "imagess/images.webp", description: "A rotating selection of traditional dairy favourites, made fresh with milk from trusted local farms.", descriptionBn: "বিশ্বস্ত স্থানীয় খামারের দুধ দিয়ে টাটকা তৈরি ঐতিহ্যবাহী দুগ্ধজাত পণ্যের সমাহার।" },
+      { id: 10, name: "Bengali Pantry Box", bn: "দেশীয় খাবার", category: "Traditional", price: 990, unit: "Gift set", badge: "Pabna special", badgeBn: "পাবনার বিশেষ", image: "imagess/images%20(11).jpg", description: "A thoughtful collection of Bengali pantry staples from Pabna—made for gifting, sharing and bringing a taste of home to the table.", descriptionBn: "পাবনার দেশীয় খাবারের যত্নে সাজানো উপহার বাক্স—প্রিয়জনের সঙ্গে ভাগ করে নিতে ঘরের স্বাদ।" }
+    ];
+    const categories = ["All", "Gur", "Dairy", "Pantry", "Homemade", "Traditional"];
+    const categoryLabels = { All: "All products", Gur: "Gur & patali", Dairy: "Ghee & dairy", Pantry: "Pantry", Homemade: "Homemade", Traditional: "Traditional" };
+    const categoryLabelsBn = { All: "সব পণ্য", Gur: "গুড় ও পাটালি", Dairy: "ঘি ও দুগ্ধজাত", Pantry: "নিত্যপ্রয়োজনীয়", Homemade: "ঘরে তৈরি", Traditional: "ঐতিহ্যবাহী" };
+    const imgUrl = path => path;
+    let activeCategory = "All";
+    let searchTerm = "";
+    let cart = {};
+    let language = "en";
+    const originalText = new WeakMap();
+    const staticBn = {
+      "Complimentary delivery": "বিনামূল্যে ডেলিভারি", "on orders over ৳2,000 · Proudly sourced in Pabna": "৳২,০০০-এর বেশি অর্ডারে · গর্বের সঙ্গে পাবনা থেকে সংগৃহীত",
+      "From the heart of Pabna": "পাবনার মাটির ঘ্রাণ", "The honest taste": "পাবনার", "of": "খাঁটি", "home.": "স্বাদ।",
+      "Rooted in our soil, made with care. Discover pure, traditional foods from the farms and homes of Pabna, Bangladesh.": "আমাদের মাটিতে বেড়ে ওঠা, যত্নে তৈরি। বাংলাদেশের পাবনার খামার ও ঘরের খাঁটি ঐতিহ্যবাহী খাবার আবিষ্কার করুন।",
+      "Explore the collection": "পণ্যের সংগ্রহ দেখুন", "GOOD FOOD. GOOD ROOTS. ALWAYS LOCAL.": "ভালো খাবার। শেকড়ের টান। সবসময় স্থানীয়।",
+      "Locally sourced in Pabna": "পাবনা থেকে সংগৃহীত", "Pure, honest ingredients": "খাঁটি ও বিশুদ্ধ উপকরণ", "Made in small batches": "অল্প পরিমাণে তৈরি", "Delivered with care": "যত্নে পৌঁছে দিই",
+      "Our roots are right here in Pabna": "আমাদের শেকড় এই পাবনাতেই", "A little about us": "আমাদের কথা", "From our land,": "আমাদের মাটি থেকে,", "with love.": "ভালোবাসায়।",
+      "We believe the best food doesn't need to travel far. Mati & Madhur brings together the people, flavours and time-honoured recipes that make Pabna special.": "সেরা খাবারের জন্য দূরে যাওয়ার দরকার নেই। পাবনার মানুষ, স্বাদ আর প্রজন্মের ঐতিহ্যবাহী রেসিপি একত্র করে মাটি অ্যান্ড মধুর।",
+      "We work directly with local farmers and family makers—from the date palm groves to the home kitchen—so every jar carries a little piece of where it came from.": "খেজুরবাগান থেকে ঘরের রান্নাঘর—স্থানীয় কৃষক ও পারিবারিক উদ্যোক্তাদের সঙ্গে সরাসরি কাজ করি, যেন প্রতিটি পণ্যে থাকে তার উৎসের গল্প।",
+      "With care, from Pabna": "যত্নে তৈরি, পাবনা থেকে", "The local pantry": "স্থানীয় খাবারের ভান্ডার", "Goodness, grown close.": "কাছের মাটির খাঁটি খাবার।",
+      "Explore the traditional flavours our neighbours have loved for generations.": "প্রজন্মের পর প্রজন্ম ধরে আমাদের এলাকার মানুষ যে ঐতিহ্যবাহী স্বাদ ভালোবেসেছেন, তা ঘুরে দেখুন।",
+      "Date palm gur": "খেজুরের গুড়", "Ghee & dairy": "ঘি ও দুগ্ধজাত পণ্য", "Oils & honey": "তেল ও মধু", "Pickles & pitha": "আচার ও পিঠা", "Bengali classics": "বাংলার ঐতিহ্য",
+      "Made nearby, loved everywhere": "কাছেই তৈরি, সবার প্রিয়", "Our market basket.": "আমাদের পণ্যের ঝুড়ি।",
+      "Small-batch favourites, thoughtfully sourced from Pabna and neighbouring communities.": "পাবনা ও আশপাশের এলাকা থেকে যত্নে সংগৃহীত অল্প পরিমাণে তৈরি প্রিয় সব খাবার।",
+      "Pabna's winter treasure": "পাবনার শীতের সেরা উপহার", "A little sweetness, made the old way.": "পুরোনো রীতিতে তৈরি একটুখানি মিষ্টি।",
+      "Every winter, local gachhis collect fresh date palm sap and slowly cook it over a wood fire. No shortcuts, no added sugar—just the deep, caramel warmth of real Pabna khejur gur.": "প্রতি শীতে স্থানীয় গাছিরা টাটকা খেজুরের রস সংগ্রহ করে কাঠের আগুনে ধীরে জ্বাল দেন। কোনো শর্টকাট বা বাড়তি চিনি নয়—শুধু খাঁটি পাবনার খেজুর গুড়ের গভীর মিষ্টি স্বাদ।",
+      "Shop the gur collection": "গুড়ের সংগ্রহ কিনুন", "Harvested by hand · Pabna": "হাতে সংগ্রহ · পাবনা", "The Mati & Madhur promise": "মাটি অ্যান্ড মধুরের অঙ্গীকার",
+      "Good food feels different.": "খাঁটি খাবারের স্বাদ আলাদা।", "Care you can taste, from the first harvest to the last spoonful.": "প্রথম ফসল থেকে শেষ চামচ পর্যন্ত—যত্নের স্বাদ পাবেন প্রতিটি খাবারে।",
+      "Close to home": "নিজের এলাকার", "Every product comes from Pabna or our neighbouring communities, never anonymous supply chains.": "প্রতিটি পণ্য পাবনা বা আশপাশের এলাকা থেকে আসে—অজানা কোনো সরবরাহকারী থেকে নয়।",
+      "Nothing to hide": "বিশুদ্ধতায় নিশ্চয়তা", "Honest ingredients and traditional methods. No unnecessary additives, just food as it should be.": "খাঁটি উপকরণ ও ঐতিহ্যবাহী পদ্ধতি। অপ্রয়োজনীয় কিছু মেশানো নয়—খাবার যেমন হওয়া উচিত ঠিক তেমন।",
+      "Made with care": "যত্নে তৈরি", "We choose small family makers who put time, skill and pride into every batch.": "প্রতিটি ব্যাচে সময়, দক্ষতা ও ভালোবাসা দেন—এমন পারিবারিক উদ্যোক্তাদের বেছে নিই।",
+      "Fresh to your door": "টাটকা খাবার আপনার দোরগোড়ায়", "Carefully packed and sent directly to you, so every order arrives ready to enjoy.": "যত্নে প্যাক করে সরাসরি আপনার কাছে পাঠাই, যেন প্রতিটি অর্ডার উপভোগের জন্য প্রস্তুত থাকে।",
+      "A few local favourites": "স্থানীয় কিছু প্রিয় খাবার", "Beloved around here.": "এলাকার সবার প্রিয়।",
+      "The pantry staples our customers come back for, time and again.": "আমাদের ক্রেতারা বারবার ফিরে আসেন যে নিত্যপ্রয়োজনীয় খাবারের জন্য।",
+      "Kind words from our table": "আমাদের ক্রেতাদের ভালোবাসা", "Shared with love.": "ভালোবাসার স্বাদ ভাগ করে নিই।",
+      "Nothing makes us happier than bringing a taste of home to your table.": "আপনার টেবিলে ঘরের স্বাদ পৌঁছে দেওয়ার আনন্দই আমাদের সবচেয়ে বেশি।",
+      "“The khejur gur tastes just like what my grandmother used to make. You can really feel the care in it.”": "“খেজুরের গুড়ের স্বাদ একদম দাদির হাতের মতো। প্রতিটি কামড়ে যত্নের ছোঁয়া পাওয়া যায়।”",
+      "“The ghee is beautiful—rich, fragrant, and a little goes a long way. My family asks for it every week.”": "“ঘি দারুণ—ঘন, সুগন্ধি, আর অল্পতেই অনেকটা হয়। আমার পরিবার প্রতি সপ্তাহেই এটা চায়।”",
+      "“Finally, proper local food I can send to my parents in Dhaka. Lovely packaging and lovely people.”": "“অবশেষে ঢাকায় বাবা-মায়ের কাছে পাঠানোর মতো আসল দেশি খাবার পেলাম। প্যাকেজিং আর মানুষ—দুটোই চমৎকার।”",
+      "Pabna Sadar · Verified customer": "পাবনা সদর · যাচাইকৃত ক্রেতা", "Ishwardi · Verified customer": "ঈশ্বরদী · যাচাইকৃত ক্রেতা", "Dhaka · Verified customer": "ঢাকা · যাচাইকৃত ক্রেতা",
+      "Let's get something good to you": "আপনার কাছে ভালো খাবার পৌঁছে দিই", "Order a little taste of Pabna.": "অর্ডার করুন পাবনার খাঁটি স্বাদ।",
+      "Tell us what you have in mind. We’ll confirm your order and delivery details personally, with a little help from WhatsApp.": "আপনি কী নিতে চান জানান। হোয়াটসঅ্যাপে আমরা ব্যক্তিগতভাবে অর্ডার ও ডেলিভারির তথ্য নিশ্চিত করব।",
+      "Call or WhatsApp us": "কল বা হোয়াটসঅ্যাপ করুন", "Our home": "আমাদের ঠিকানা", "Pabna, Rajshahi Division, Bangladesh": "পাবনা, রাজশাহী বিভাগ, বাংলাদেশ",
+      "We deliver across Bangladesh. Delivery charges are confirmed when we get in touch.": "বাংলাদেশের সব জায়গায় ডেলিভারি দিই। যোগাযোগের সময় ডেলিভারি চার্জ জানিয়ে দেব।",
+      "Your name": "আপনার নাম", "Phone number": "ফোন নম্বর", "Delivery address": "ডেলিভারির ঠিকানা", "What would you like?": "কী অর্ডার করতে চান?",
+      "Send order via WhatsApp": "হোয়াটসঅ্যাপে অর্ডার পাঠান", "Honest, traditional food from the farms and family kitchens of Pabna. A little taste of home, wherever you are.": "পাবনার খামার ও পারিবারিক রান্নাঘরের খাঁটি ঐতিহ্যবাহী খাবার। আপনি যেখানেই থাকুন, ঘরের একটু স্বাদ।",
+      "Explore": "ঘুরে দেখুন", "Our story": "আমাদের গল্প", "Shop": "কেনাকাটা", "Reviews": "মতামত", "Contact": "যোগাযোগ", "Shop all": "সব পণ্য", "Pabna gur": "পাবনার গুড়", "Customer love": "ক্রেতাদের ভালোবাসা",
+      "Our pantry": "আমাদের খাবারের ভান্ডার", "Gur & patali": "গুড় ও পাটালি", "Oil & honey": "তেল ও মধু", "Come say hello": "যোগাযোগ করুন",
+      "WhatsApp: +880 1700-000000": "হোয়াটসঅ্যাপ: +৮৮০ ১৭০০-০০০০০০", "Pabna, Bangladesh": "পাবনা, বাংলাদেশ", "Every day · 9am–7pm": "প্রতিদিন · সকাল ৯টা–সন্ধ্যা ৭টা",
+      "Made with care in Pabna, Bangladesh": "যত্নে তৈরি, পাবনা, বাংলাদেশ", "Pabna · Bangladesh": "পাবনা · বাংলাদেশ", "Your basket": "আপনার ঝুড়ি", "Subtotal": "সর্বমোট", "Order on WhatsApp →": "হোয়াটসঅ্যাপে অর্ডার করুন →",
+      "Your basket is waiting for something good.": "আপনার ঝুড়িতে ভালো কিছু যোগ করার অপেক্ষায়।",
+      "Search our pantry…": "পণ্য খুঁজুন…", "Filter products": "পণ্য ফিল্টার করুন", "Search products": "পণ্য খুঁজুন", "Shopping cart": "শপিং কার্ট", "Product details": "পণ্যের বিবরণ",
+      "View": "দেখুন", "Quick view": "দ্রুত দেখুন", "Add": "যোগ করুন", "Remove one": "একটি কমান", "Add one": "একটি বাড়ান",
+      "Added to your basket": "আপনার ঝুড়িতে যোগ হয়েছে", "Opening WhatsApp to send your order…": "অর্ডার পাঠাতে হোয়াটসঅ্যাপ খোলা হচ্ছে…",
+      "No pantry favourites found. Try another search.": "কোনো পণ্য পাওয়া যায়নি। অন্য কিছু লিখে খুঁজুন।"
+    };
+    const productGrid = document.getElementById("productGrid");
+    const bestsellerGrid = document.getElementById("bestsellerGrid");
+    const filters = document.getElementById("filters");
+    const money = n => `৳${n.toLocaleString(language === "bn" ? "bn-BD" : "en-BD")}`;
+    const categoryLabel = category => (language === "bn" ? categoryLabelsBn : categoryLabels)[category];
+    const productName = product => language === "bn" ? product.bn : product.name;
+    const productUnit = product => language === "bn"
+      ? ({ "500 g": "৫০০ গ্রাম", "500 ml": "৫০০ মিলি", "400 g": "৪০০ গ্রাম", "6 pieces": "৬টি", "Gift set": "উপহার সেট" }[product.unit] || product.unit)
+      : product.unit;
+    function translateStaticText() {
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+      let node;
+      while ((node = walker.nextNode())) {
+        if (!originalText.has(node)) originalText.set(node, node.nodeValue);
+        const original = originalText.get(node);
+        if (language === "en") {
+          node.nodeValue = original;
+          continue;
+        }
+        const key = original.trim();
+        if (!staticBn[key]) continue;
+        const leading = original.match(/^\s*/)[0];
+        const trailing = original.match(/\s*$/)[0];
+        node.nodeValue = `${leading}${staticBn[key]}${trailing}`;
+      }
+    }
+    function updateLanguageAttributes() {
+      const isBangla = language === "bn";
+      document.title = isBangla ? "মাটি অ্যান্ড মধুর — পাবনার খাঁটি স্বাদ" : "Mati & Madhur — The honest taste of Pabna";
+      document.getElementById("searchInput").placeholder = isBangla ? "পণ্য খুঁজুন…" : "Search our pantry…";
+      document.getElementById("searchInput").setAttribute("aria-label", isBangla ? "পণ্য খুঁজুন" : "Search products");
+      document.getElementById("navLinks").setAttribute("aria-label", isBangla ? "প্রধান নেভিগেশন" : "Main navigation");
+      document.getElementById("cartOpen").setAttribute("aria-label", isBangla ? "শপিং কার্ট খুলুন" : "Open shopping cart");
+      document.getElementById("cartDrawer").setAttribute("aria-label", isBangla ? "শপিং কার্ট" : "Shopping cart");
+      document.getElementById("modalBackdrop").setAttribute("aria-label", isBangla ? "পণ্যের বিবরণ" : "Product details");
+      document.getElementById("customerName").placeholder = isBangla ? "যেমন: সামিরা রহমান" : "e.g. Samira Rahman";
+      document.getElementById("customerPhone").placeholder = isBangla ? "+৮৮০ ১XXX-XXXXXX" : "+880 1XXX-XXXXXX";
+      document.getElementById("customerAddress").placeholder = isBangla ? "বাড়ি, এলাকা, জেলা" : "House, area, district";
+      document.getElementById("customerOrder").placeholder = isBangla ? "পণ্য ও পরিমাণ লিখুন, অথবা শুধু শুভেচ্ছা জানান…" : "Products and quantities, or just say hello…";
+      document.getElementById("languageToggle").setAttribute("aria-label", isBangla ? "Switch to English" : "বাংলা ভাষায় দেখুন");
+    }
+    function renderFilters() {
+      filters.innerHTML = categories.map(c => `<button class="filter-chip ${activeCategory === c ? "active" : ""}" data-category="${c}">${categoryLabel(c)}</button>`).join("");
+    }
+    function productCard(p) {
+      return `<article class="product-card">
+        <div class="product-image" data-details="${p.id}" tabindex="0" role="button" aria-label="${language === "bn" ? "বিস্তারিত দেখুন" : "View"} ${productName(p)}">
+          <img src="${imgUrl(p.image, 700)}" alt="${productName(p)}" loading="lazy">
+          <span class="badge">${language === "bn" ? p.badgeBn : p.badge}</span>
+          <button class="quick-view" data-details="${p.id}" aria-label="${language === "bn" ? "দ্রুত দেখুন" : "Quick view"} ${productName(p)}">↗</button>
+        </div>
+        <div class="product-info">
+          <div class="product-category">${categoryLabel(p.category)}</div>
+          <h3 class="product-title">${productName(p)}</h3>
+          <div class="product-bn">${language === "bn" ? `পাবনা · ${productUnit(p)}` : `${p.bn} · ${p.unit}`}</div>
+          <div class="product-bottom"><span class="price">${money(p.price)} <small>/ ${productUnit(p)}</small></span><button class="add-button" data-add="${p.id}" aria-label="${language === "bn" ? "ঝুড়িতে যোগ করুন" : "Add to basket"}: ${productName(p)}">+</button></div>
+        </div>
+      </article>`;
+    }
+    function renderProducts() {
+      const found = products.filter(p => (activeCategory === "All" || p.category === activeCategory) && `${p.name} ${p.bn} ${p.category}`.toLowerCase().includes(searchTerm));
+      productGrid.innerHTML = found.length ? found.map(productCard).join("") : `<div class="no-results">${language === "bn" ? "কোনো পণ্য পাওয়া যায়নি। অন্য কিছু লিখে খুঁজুন।" : "No pantry favourites found. Try another search."}</div>`;
+      bestsellerGrid.innerHTML = [products[0], products[3], products[9]].map(productCard).join("");
+    }
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("show");
+      clearTimeout(showToast.timer);
+      showToast.timer = setTimeout(() => toast.classList.remove("show"), 2100);
+    }
+    function addToCart(id, quantity) {
+      cart[id] = (cart[id] || 0) + (quantity || 1);
+      renderCart();
+      showToast(language === "bn" ? "আপনার ঝুড়িতে যোগ হয়েছে" : "Added to your basket");
+    }
+    function renderCart() {
+      const lines = Object.entries(cart).filter(([, qty]) => qty > 0);
+      const count = lines.reduce((sum, [, qty]) => sum + qty, 0);
+      const total = lines.reduce((sum, [id, qty]) => sum + products.find(p => p.id === Number(id)).price * qty, 0);
+      document.getElementById("cartCount").textContent = count;
+      document.getElementById("cartSubtotal").textContent = money(total);
+      document.getElementById("cartItems").innerHTML = lines.length ? lines.map(([id, qty]) => {
+        const p = products.find(item => item.id === Number(id));
+        return `<div class="cart-row"><img src="${imgUrl(p.image, 180)}" alt=""><div><strong>${productName(p)}</strong><small>${money(p.price)} · ${productUnit(p)}</small><div class="qty-control"><button data-qty="${p.id}" data-change="-1" aria-label="${language === "bn" ? "একটি কমান" : "Remove one"}">−</button><span>${qty.toLocaleString(language === "bn" ? "bn-BD" : "en-BD")}</span><button data-qty="${p.id}" data-change="1" aria-label="${language === "bn" ? "একটি বাড়ান" : "Add one"}">+</button></div></div><strong>${money(p.price * qty)}</strong></div>`;
+      }).join("") : `<div class="cart-empty">${language === "bn" ? "আপনার ঝুড়িতে ভালো কিছু যোগ করার অপেক্ষায়।" : "Your basket is waiting for something good."}</div>`;
+      document.getElementById("checkoutButton").textContent = language === "bn" ? "হোয়াটসঅ্যাপে অর্ডার করুন →" : "Order on WhatsApp →";
+      document.getElementById("checkoutButton").disabled = !lines.length;
+      document.getElementById("checkoutButton").style.opacity = lines.length ? "1" : ".55";
+    }
+    function setCartOpen(open) {
+      document.getElementById("cartDrawer").classList.toggle("open", open);
+      document.getElementById("drawerBackdrop").classList.toggle("open", open);
+      document.getElementById("cartDrawer").setAttribute("aria-hidden", String(!open));
+      document.body.classList.toggle("locked", open);
+    }
+    function openProduct(id) {
+      const p = products.find(item => item.id === Number(id));
+      if (!p) return;
+      const modal = document.getElementById("productModal");
+      modal.dataset.productId = p.id;
+      modal.innerHTML = `<img src="${imgUrl(p.image, 900)}" alt="${productName(p)}"><div class="modal-content"><button class="close-button" data-modal-close aria-label="${language === "bn" ? "বন্ধ করুন" : "Close details"}">×</button><span class="product-category">${categoryLabel(p.category)} · ${productUnit(p)}</span><h2>${productName(p)}</h2><div class="product-bn">${language === "bn" ? p.name : p.bn}</div><p>${language === "bn" ? p.descriptionBn : p.description}</p><div class="modal-bottom"><span class="price">${money(p.price)} <small>/ ${productUnit(p)}</small></span><button class="button" data-add="${p.id}">${language === "bn" ? "ঝুড়িতে যোগ করুন +" : "Add to basket +"}</button></div></div>`;
+      document.getElementById("modalBackdrop").classList.add("open");
+      document.body.classList.add("locked");
+    }
+    function closeModal() {
+      document.getElementById("modalBackdrop").classList.remove("open");
+      if (!document.getElementById("cartDrawer").classList.contains("open")) document.body.classList.remove("locked");
+    }
+    function makeWhatsAppUrl(message) {
+      return `https://wa.me/8801700000000?text=${encodeURIComponent(message)}`;
+    }
+    document.addEventListener("click", event => {
+      const filter = event.target.closest("[data-category]");
+      if (filter) { activeCategory = filter.dataset.category; renderFilters(); renderProducts(); document.getElementById("products").scrollIntoView({ behavior: "smooth" }); }
+      const categoryCard = event.target.closest(".category-card");
+      if (categoryCard) { activeCategory = categoryCard.dataset.filter; renderFilters(); renderProducts(); document.getElementById("products").scrollIntoView({ behavior: "smooth" }); }
+      const add = event.target.closest("[data-add]");
+      if (add) { addToCart(Number(add.dataset.add)); closeModal(); }
+      const detail = event.target.closest("[data-details]");
+      if (detail) openProduct(detail.dataset.details);
+      const qty = event.target.closest("[data-qty]");
+      if (qty) { const id = Number(qty.dataset.qty); cart[id] = (cart[id] || 0) + Number(qty.dataset.change); if (cart[id] <= 0) delete cart[id]; renderCart(); }
+      if (event.target.closest("[data-modal-close]") || event.target.id === "modalBackdrop") closeModal();
+      if (event.target.id === "cartOpen") setCartOpen(true);
+      if (event.target.id === "cartClose" || event.target.id === "drawerBackdrop") setCartOpen(false);
+    });
+    productGrid.addEventListener("keydown", event => {
+      if ((event.key === "Enter" || event.key === " ") && event.target.matches("[data-details]")) { event.preventDefault(); openProduct(event.target.dataset.details); }
+    });
+    document.getElementById("searchInput").addEventListener("input", event => { searchTerm = event.target.value.trim().toLowerCase(); renderProducts(); });
+    document.getElementById("checkoutButton").addEventListener("click", () => {
+      const lines = Object.entries(cart).map(([id, qty]) => { const p = products.find(item => item.id === Number(id)); return `${productName(p)} (${qty} × ${money(p.price)})`; });
+      if (!lines.length) return;
+      const total = Object.entries(cart).reduce((sum, [id, qty]) => sum + products.find(p => p.id === Number(id)).price * qty, 0);
+      const intro = language === "bn" ? "আসসালামু আলাইকুম মাটি অ্যান্ড মধুর! আমি অর্ডার করতে চাই:" : "Hello Mati & Madhur! I'd like to order:";
+      const subtotal = language === "bn" ? "সর্বমোট" : "Subtotal";
+      const confirm = language === "bn" ? "অনুগ্রহ করে ডেলিভারির তথ্য নিশ্চিত করুন।" : "Please confirm delivery details.";
+      window.open(makeWhatsAppUrl(`${intro}\n${lines.join("\n")}\n\n${subtotal}: ${money(total)}\n\n${confirm}`), "_blank", "noopener");
+    });
+    document.getElementById("contactForm").addEventListener("submit", event => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const message = language === "bn"
+        ? `আসসালামু আলাইকুম মাটি অ্যান্ড মধুর!\nনাম: ${form.get("name")}\nফোন: ${form.get("phone")}\nডেলিভারির ঠিকানা: ${form.get("address")}\nঅর্ডার: ${form.get("order") || "পছন্দের পণ্য বেছে নিতে সাহায্য করুন।"}`
+        : `Hello Mati & Madhur!\nName: ${form.get("name")}\nPhone: ${form.get("phone")}\nDelivery address: ${form.get("address")}\nOrder: ${form.get("order") || "Please help me choose."}`;
+      document.getElementById("formStatus").textContent = language === "bn" ? "অর্ডার পাঠাতে হোয়াটসঅ্যাপ খোলা হচ্ছে…" : "Opening WhatsApp to send your order…";
+      window.open(makeWhatsAppUrl(message), "_blank", "noopener");
+    });
+    document.getElementById("languageToggle").addEventListener("click", event => {
+      language = language === "en" ? "bn" : "en";
+      document.documentElement.lang = language;
+      event.currentTarget.textContent = language === "en" ? "বাংলা" : "English";
+      translateStaticText();
+      updateLanguageAttributes();
+      renderFilters();
+      renderProducts();
+      renderCart();
+      const modal = document.getElementById("productModal");
+      if (document.getElementById("modalBackdrop").classList.contains("open")) openProduct(modal.dataset.productId);
+    });
+    document.getElementById("menuToggle").addEventListener("click", () => document.getElementById("navLinks").classList.toggle("open"));
+    document.querySelectorAll("#navLinks a").forEach(link => link.addEventListener("click", () => document.getElementById("navLinks").classList.remove("open")));
+    document.getElementById("year").textContent = new Date().getFullYear();
+    translateStaticText();
+    updateLanguageAttributes();
+    renderFilters();
+    renderProducts();
+    renderCart();
+  </script>
+</body>
+</html>
